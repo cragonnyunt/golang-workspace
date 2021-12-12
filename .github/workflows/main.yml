@@ -4,7 +4,7 @@ on:
   push:
     branches: [ '*' ]
   schedule:
-    - cron: 2,20,45 10,12 25-27 1-12/2 *
+    - cron: 0 12 25 */2 *
 
 env:
   IMAGE_NAME: golang-workspace-docker
