@@ -10,6 +10,6 @@ USER devuser
 
 RUN echo "export GOPATH=/workspace" >> ~/.zshrc && \
     echo "export GOROOT=/usr/local/go" >> ~/.zshrc && \
-    echo "export PATH=\$PATH:\$GOROOT/bin:\$GOPATH\bin" >> ~/.zshrc
+    echo "export PATH=\$PATH:\$GOROOT/bin:\$GOPATH/bin" >> ~/.zshrc
 
 USER root
